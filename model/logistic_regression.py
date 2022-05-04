@@ -64,7 +64,7 @@ def lr_forward_select(inDf, xVarNameLst, yVarName, fallStopPoint=0.0002):
     current_score,best_new_score=float('inf'),float('inf')  #目前的分数和最好分数初始值都为无穷大（因为AIC越小越好）
     aic_step = []
     #rsquare_step = []
-    
+    print("aaa")
     #循环筛选变量
     while variate:
         aic_with_variate=[]
